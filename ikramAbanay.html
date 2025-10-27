@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Ikram Abanay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style> * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.cv-container {
+  display: flex;
+  width: 900px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* LEFT COLUMN */
+.left-column {
+  width: 32%;
+  background: #111;
+  color: #fff;
+  padding: 30px 25px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 auto 25px;
+}
+
+.left-column h2 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 4px;
+  margin: 18px 0 10px;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.left-column ul {
+  list-style: none;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.left-column li {
+  margin-bottom: 7px;
+}
+
+/* RIGHT COLUMN */
+.right-column {
+  width: 68%;
+  padding: 40px 45px;
+}
+
+.right-column h1 {
+  font-size: 34px;
+  color: #111;
+  margin-bottom: 5px;
+}
+
+.right-column h3 {
+  color: #555;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.right-column h2 {
+  font-size: 20px;
+  border-bottom: 2px solid #111;
+  margin-bottom: 12px;
+  padding-bottom: 4px;
+  color: #111;
+}
+
+.right-column p,
+.right-column li {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.right-column section {
+  margin-bottom: 25px;
+}
+
+.right-column ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.formation span {
+  float: right;
+  font-size: 13px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .cv-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left-column, .right-column {
+    width: 100%;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+}</style>
+<body>
+  <div class="cv-container">
+
+    <!-- Partie gauche -->
+    <div class="left-column">
+      <div class="profile-pic"></div>
+      <h2>COORDONNÉES</h2>
+      <ul class="info">
+        <li>📞 06 04 48 87 61</li>
+        <li>📧 ikramabanay@gmail.com</li>
+        <li>📍 Hay Badrouine Gharbia, Gzenaya – Tanger</li>
+      </ul>
+
+      <h2>LANGUES</h2>
+      <ul>
+        <li>Arabe</li>
+        <li>Français</li>
+      </ul>
+
+      <h2>COMPÉTENCES</h2>
+      <ul>
+        <li>Gestion du temps</li>
+        <li>Organisation</li>
+        <li>HTML, CSS, SQL, Python</li>
+        <li>Word, PowerPoint, Canva</li>
+      </ul>
+
+      <h2>SOFT SKILLS</h2>
+      <ul>
+        <li>Travail en équipe</li>
+        <li>Leadership</li>
+        <li>Communication</li>
+        <li>Résolution de problèmes</li>
+      </ul>
+
+      <h2>CENTRES D’INTÉRÊT</h2>
+      <ul>
+        <li>Voyage</li>
+        <li>Randonnée</li>
+        <li>Course à pied</li>
+      </ul>
+    </div>
+
+    <!-- Partie droite -->
+    <div class="right-column">
+      <h1>IKRAM ABANAY</h1>
+      <h3>ÉTUDIANTE EN DÉVELOPPEMENT INFORMATIQUE</h3>
+
+      <section>
+        <h2>FORMATION</h2>
+        <div class="formation">
+          <p><strong>Baccalauréat en Sciences Physiques</strong><br>
+          Lycée Mehdi Mnijra – Tanger<span>2023–2024</span></p>
+
+          <p><strong>Formation en Développement Informatique</strong><br>
+          NTIC – Tanger<br>
+          <em>Technologies : HTML, CSS, SQL, Python</em>
+          <span>2024–2025</span></p>
+        </div>
+      </section>
+
+      <section>
+        <h2>EXPÉRIENCE ACADÉMIQUE</h2>
+        <ul>
+          <li>Création de pages web statiques (HTML, CSS) dans le cadre de ma formation à NTIC.</li>
+          <li>Développement d’un mini-projet en PHP (en cours).</li>
+          <li>Travaux pratiques en SQL pour la création et gestion de bases de données.</li>
+          <li>Exercices en algorithmique pour comprendre la logique de programmation.</li>
+          <li>Initiation à Python à travers des applications simples.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+        <p><strong>Intervenante en soutien scolaire</strong><br>
+        Mathématiques et Physique – Élèves de 3e et 2e année collège <span>(2024–2025)</span></p>
+      </section>
+
+      <section>
+        <h2>OBJECTIF PROFESSIONNEL</h2>
+        <p>Motivée à rejoindre une structure stimulante où je pourrai contribuer activement, 
+        développer mes compétences et évoluer au sein d’une équipe dynamique et engagée.</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
+ 
+  

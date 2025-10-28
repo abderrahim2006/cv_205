@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alami's cv  | Full Stack developor</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary-color: #4caf7f; /* soft green */
+  --secondary-color: #f0f4f3; /* light grey/green background */
+  --accent-color: #343a40; /* dark grey / black */
+  --light-color: #ffffff; 
+  --dark-color: #2a2a2a; 
+}
+
+body { font-family:'Poppins', sans-serif; background-color: var(--secondary-color); color: var(--dark-color); line-height:1.6; }
+.cv-container { max-width: 1000px; margin:30px auto; background:white; border-radius:10px; overflow:hidden; box-shadow:0 5px 25px rgba(0,0,0,0.1); }
+.header-section { background: var(--primary-color); color:white; padding:30px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+.header-section h1 { font-size:2.5rem; margin:0; }
+.header-section h2 { font-size:1.2rem; font-weight:400; opacity:0.9; }
+.profile-img { width:120px; height:120px; border-radius:50%; border:4px solid rgba(255,255,255,0.3); object-fit:cover; background-color:var(--light-color); display:flex; align-items:center; justify-content:center; font-size:3rem; color:var(--accent-color); }
+
+.section-title { font-weight:600; margin-bottom:15px; color:var(--primary-color); border-bottom:2px solid var(--primary-color); padding-bottom:5px; }
+
+.contact-card, .skills-card { background-color: var(--secondary-color); border-radius:8px; padding:15px; margin-bottom:20px; }
+.contact-item { display:flex; align-items:center; margin-bottom:10px; }
+.contact-icon { width:35px; height:35px; background-color:var(--primary-color); color:white; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-right:10px; }
+.badge-custom { background-color:var(--primary-color); color:white; padding:5px 10px; border-radius:4px; font-size:0.8rem; margin:3px; display:inline-block; }
+.project-card { border:none; border-radius:8px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:15px; transition: transform 0.3s ease; }
+.project-card:hover { transform:translateY(-5px); }
+@media (max-width:768px){ .header-section{flex-direction:column;align-items:center;text-align:center;} .profile-img{margin-bottom:15px;} }
+</style>
+</head>
+<body>
+<div class="cv-container">
+  <!-- Header -->
+  <div class="header-section">
+    <div>
+      <h1>EL ALAMI ALAE DDINE</h1>
+      <h2>Développeur Full-Stack</h2>
+    </div>
+    <div class="profile-img"><i class="fas fa-user"></i></div>
+  </div>
+
+  <div class="container py-4">
+    <div class="row">
+      <!-- Left Column -->
+      <div class="col-lg-8">
+        <!-- Formation & Experiences -->
+        <div class="mb-4">
+          <h3 class="section-title">Formation & Expériences</h3>
+          <div class="card project-card p-3 mb-3">
+            <h5>Technicien Spécialisé en Développement Digital</h5>
+            <p><strong>ISMONTIC – Tanger</strong> | 2024 - 2026</p>
+            <ul>
+              <li>Option Développement Web Full-Stack</li>
+              <li>Projects : Gestion de Stock , E-Commerce , Livraison de Nourriture</li>
+            </ul>
+          </div>
+          <div class="card project-card p-3 mb-3">
+            <h5>Baccalauréat en Sciences Physiques – Mention Bien</h5>
+            <p><strong>Lycée ZINEB AL NAFZAOUIA</strong> | 2024</p>
+          </div>
+          <div class="card project-card p-3 mb-3">
+            <h5>Projet : Ma Bibliothèque</h5>
+            <p><strong>G</strong> | 10/10/2025</p>
+            <ul>
+              <li>
+                Projet : Ma Bibliothèque | 10/12/2024
+Développement d’une application web pour la gestion d’une bibliothèque :
+
+Gestion des livres, des adhérents et des emprunts.
+
+Suivi des retours et disponibilités des ouvrages.
+
+Développement avec HTML, Bootstrap et CSS pour une interface simple et fonctionnelle.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="mb-4">
+          <h3 class="section-title">Compétences Techniques</h3>
+          <div class="skills-card">
+            <span class="badge-custom">HTML</span>
+            <span class="badge-custom">CSS</span>
+            <span class="badge-custom">JavaScript</span>
+            <span class="badge-custom">Bootstrap</span>
+            <span class="badge-custom">Tailwind CSS</span>
+            <span class="badge-custom">PHP</span>
+            <span class="badge-custom">Python</span>
+            <span class="badge-custom">MySQL</span>
+            <span class="badge-custom">Figma</span>
+            <span class="badge-custom">Git</span>
+            <span class="badge-custom">Git Hub</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-lg-4">
+        <!-- Contact -->
+        <div class="contact-card">
+          <h3 class="section-title">Contact</h3>
+          <div class="contact-item"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>TANGER AL KASABAH</div>
+          <div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div>alaedinelalami@gmail.com</div>
+          <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone"></i></div>0619598285</div>
+          <div class="contact-item"><div class="contact-icon"><i class="fab fa-github"></i></div>https://github.com/Alamii27</div>
+        </div>
+
+        <!-- Soft Skills & Languages -->
+        <div class="skills-card">
+          <h3 class="section-title">Soft Skills & Langues</h3>
+          <div class="mb-2">
+            <span class="badge-custom">Esprit d'équipe</span>
+            <span class="badge-custom">Résolution de problèmes</span>
+            <span class="badge-custom">Gestion du temps</span>
+            <span class="badge-custom">Sens de l'analyse</span>
+            <span class="badge-custom">Effective Communication Skills</span>
+          </div>
+          <div class="mb-2">
+            <span class="badge-custom">Arabe</span>
+            <span class="badge-custom">Français</span>
+            <span class="badge-custom">Anglais</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
